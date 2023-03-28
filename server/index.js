@@ -22,6 +22,7 @@ app.get('/', async (req, res) => {
   res.send('Hello from DALL-E');
 })
 
+const version = process.env.NODE_VERSION;
 
 const startServer = async () => {
   try {
